@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:  dimgray;
+            margin: 0;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);  
+            
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius:20px 40px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: rgb(190, 178, 178);
+            margin: 10px;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(108, 161, 207);
+            padding: 5px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 4px;
+            text-align: center;
+            margin: 0;
+
+        }
+
+        footer >p{
+            margin: 0px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Futebol</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque consequatur earum repellat illo odio ab vero, aliquid dolor molestias dicta harum, placeat quae? Magnam incidunt voluptatibus illum numquam! Voluptatum, cumque!</p>
+
+                <aside>Globo esporte.com</aside>
+            </article>
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>História Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ipsum sint numquam eum? Officia amet rem minus quis tempora velit sed? Vitae eum praesentium excepturi. Voluptatibus fuga a rem! Tempora.</p>
+
+                <aside>
+                    Artigo escrito por José.
+                </aside>
+            </article>
+
+            <article>
+                <h2>Historia Guerra</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, facere quos maiores corrupti iusto delectus molestias vero reiciendis nemo. Totam itaque distinctio iusto doloribus a, aut nisi dolorem omnis soluta.</p>
+
+                <aside>Blog da CBN</aside>
+            </article>
+        </section>
+    </main>
+    <footer><p>Desenvolvido pelo CursoemVideo</p></footer>
+
+    <div id="bola"></div>
+</body>
+</html>

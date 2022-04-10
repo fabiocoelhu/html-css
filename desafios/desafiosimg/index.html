@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente
+        aumente e diminua o tamanho do seu navegador.</p>
+
+        <picture>
+            <source media="(max-width: 750px )" srcset="imagens/fotop.jpg" type="image/jpg">
+            <source media="(max-width: 1050px )" srcset="imagens/fotom.jpg" type="image/jpg">
+            <img src="imagens/fotog.jpg" alt="Imagem flexivel">
+        </picture>
+        
+        <audio preload="metadata" controls autoplay loop>
+            <source src="midia/Lonczinski - When You Were Young.mp3" type="audio/mpeg">
+            <source src="midia/Lonczinski - When You Were Young.ogg" type="audio/ogg">
+            <source src="midia/Lonczinski - When You Were Young.wav" type="audio/wav">
+            <p>Se o seu navegador nao suporta audio <a href="midia/Lonczinski - When You Were Young.mp3
+                " download="Lonczinski - When You Ware Young.mp3" type="audio/mpeg"></a></p>
+        </audio>
+</body>
+</html>
